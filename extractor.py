@@ -43,7 +43,7 @@ def select_all_products(conn):
 def main():
     database = r"E:\FirstTask\db\data.sqlite"
 
-    # create a database connection
+    # create database connection
     conn = create_connection(database)
     # query the records from the database
     rows = select_all_products(conn)
